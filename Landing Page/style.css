@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #3f1061 16.62%, #0f0753 85.61%);
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: "roboto", sans-serif;
+    color: rgba(133, 133, 245, 0.74);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgba(133, 133, 245, 0.74);
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo{
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: px;
+    color: rgba(133, 133, 245, 0.74);
+}
+
+.conteudo-principal-subtitulo{
+    font-family: "Playwrite NG Modern", cursive;
+    font-weight: 100;
+    font-size: 24px;
+    color: rgba(133, 133, 245, 0.74);
+}
+
+.conteudo-principal-botao:hover{
+    background-color: rgba(75, 73, 168, 0.685);
+}
+
+.conteudo-principal-botao{
+    background-color: rgb(134, 135, 230);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.199);
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid rgba(133, 133, 245, 0.74);
+    padding-top: 48px;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: px;
+    color: rgba(133, 133, 245, 0.74);
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: "Playwrite NG Modern", cursive;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgba(133, 133, 245, 0.74);
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid rgba(133, 133, 245, 0.74);
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
